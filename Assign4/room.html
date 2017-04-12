@@ -1,0 +1,44 @@
+<html>
+<head>
+	<center>
+	<big><b>Welcome!</b> </big>
+	</center>
+</head>
+<body style=background-color:powderblue;>
+	<br>
+	<center><img src=https://oceandrive.com/get/files/image/migration/2387_content_locker-room.jpg>
+	</center>
+	<br>
+	<center><form action=teleport.py>
+		<input type=hidden name=inventory value=1,0>
+		<input type=hidden name=URL value=URL>
+		<input type=submit value=North>
+	</form></center>
+	<center>
+	<form action=teleport.py style=display:inline; >
+		<input type=hidden name=inventory value=1,0>
+		<input type=hidden name=URL value=URL>
+		<input type=submit value=West>
+	</form>
+	<form action=../cgi-bin/room.cgi method=post style=display:inline;>
+                <input type=text name=command >
+		<input type=hidden name=inventory value=1,0>
+                <input type="submit">
+        </form>
+
+	<form action=teleport.py style=display:inline;>
+		<input type=hidden name=inventory value=1,0>
+		<input type=hidden name=URL value=URL>
+		<input type=submit value=East>
+	</form>
+	</center>
+	<br>
+	<center><form action=teleport.py>
+		<input type=hidden name=inventory value=1,0>
+		<input type=hidden name=URL value=URL>
+		<input type=submit value=South>
+	</form></center>
+
+
+<body>
+<html>

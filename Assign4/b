@@ -1,0 +1,5 @@
+#!/bin/bash
+gcc -o room.cgi room.c
+chmod 700 room.cgi
+cd ..
+mv Assign4/room.cgi cgi-bin

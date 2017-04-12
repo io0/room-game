@@ -1,0 +1,5 @@
+#!/bin/bash
+gcc -o play.cgi game.c
+chmod 700 play.cgi
+cd ..
+mv Assign4/play.cgi cgi-bin

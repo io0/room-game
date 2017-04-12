@@ -1,0 +1,19 @@
+.navbar-default{
+	background-color: #0ed690;
+	border-color: none;
+}
+.navbar-default .navbar-nav > .active {
+	color: #16af7b;
+	background: #16af7b;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #16af7b;
+    background-color: #16af7b;
+}
+
+body {
+	padding-top: 70px;
+}
+
